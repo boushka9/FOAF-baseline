@@ -147,7 +147,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "GinoraSansRegular", serif;
   font-weight: 700;
   line-height: 1.5;
-  margin: 0 0 1em 0; }
+  margin: 0 0 1em 0; 
+  text-transform: uppercase;}
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none;
@@ -2216,7 +2217,7 @@ button,
   -ms-user-select: none;
   user-select: none;
   color: #07074E;
-  font-family: "Roboto Slab", serif;
+  font-family: "GinoraSansBold";
   font-weight: 400;
   letter-spacing: 0.075em;
   list-style: none;
