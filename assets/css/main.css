@@ -1458,7 +1458,7 @@ ul.pagination {
 
 table {
   margin: 0 0 2em 0;
-  width: 100%; }
+  width: 65%; }
   table tbody tr {
     border: solid 1px rgba(210, 215, 217, 0.75);
     border-left: 0;
