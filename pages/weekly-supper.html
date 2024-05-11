@@ -77,17 +77,17 @@
 													<td>$66</td>
 												</tr>
 												<tr>
-													<td>2 Meals</td>
+													<td>2 Meals </td>
 													<td>$110</td>
 												</tr>
 												<tr>
-													<td>3 Meals</td>
+													<td>3 Meals </td>
 													<td>$154</td>
 												</tr><tr>
-													<td>4 Meals</td>
+													<td>4 Meals </td>
 													<td>$198</td>
 												</tr><tr>
-													<td>5 Meals</td>
+													<td>5 Meals </td>
 													<td>$242</td>
 												</tr>
 											</tbody>
@@ -107,17 +107,17 @@
 													<td>$84</td>
 												</tr>
 												<tr>
-													<td>2 Meals</td>
+													<td>2 Meals </td>
 													<td>$140</td>
 												</tr>
 												<tr>
-													<td>3 Meals</td>
+													<td>3 Meals </td>
 													<td>$196</td>
 												</tr><tr>
-													<td>4 Meals</td>
+													<td>4 Meals </td>
 													<td>$252</td>
 												</tr><tr>
-													<td>5 Meals</td>
+													<td>5 Meals </td>
 													<td>$308</td>
 												</tr>
 											</tbody>
@@ -140,24 +140,24 @@
 
 									<h2 id="orderForm">Order Form</h2>
 
-									<form method="post" action="#">
+									<form method="post" action="https://formspree.io/f/mqkrjpne">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall">
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												<input type="text" name="name" id="demo-name" value="" placeholder="Full Name" />
 											</div>
 											<div class="col-6 col-12-xsmall">
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												<input type="email" name="_replyto" id="demo-email" value="" placeholder="Email" />
 											</div>
 											<!-- Break -->
 											<div class="col-12">
 												<select name="category" id="category" onchange="updateInstructions()">
 													<option value="">- Category -</option>
-													<option value="supperClub">Supper Club</option>
-													<option value="breakfast">Breakfast Catering</option>
-													<option value="desserts">Desserts</option>
-													<option value="inFlight">In-Flight Catering</option>
-													<option value="charcuterie">Custom Charcuterie Boards</option>
-													<option value="seasonal">Seasonal</option>
+													<option value="Supper_Club">Supper Club</option>
+													<option value="Breakfast">Breakfast Catering</option>
+													<option value="Desserts">Desserts</option>
+													<option value="In_Flight">In-Flight Catering</option>
+													<option value="Charcuterie_Boards">Custom Charcuterie Boards</option>
+													<option value="Seasonal">Seasonal</option>
 												</select>
 											</div>
 
@@ -167,15 +167,17 @@
 											</div>
 											<!-- Break -->
 											<div class="col-12">
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												<textarea name="message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 											</div>
 											<!-- Break -->
 											<div class="col-12">
 												<ul class="actions">
 													<li><input type="submit" value="Send Message" class="primary" /></li>
-													<li><input type="reset" value="Reset" /></li>
+													<!-- <li><input type="reset" value="Reset" /></li> -->
 												</ul>
 											</div>
+											<input type="hidden" name="_subject" value="New Submission from Your Website" />
+											<input type="hidden" name="_format" value="plain" />
 										</div>
 									</form>
 									
