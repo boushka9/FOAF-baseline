@@ -135,7 +135,8 @@ strong, b {
   color: #07074E;
   font-family: 'GinoraSansBold';
   font-weight: 600; 
-text-transform: capitalize;}
+  text-transform: uppercase;
+}
 
 em, i {
   font-style: italic; }
@@ -1257,6 +1258,13 @@ input[type="radio"] + label:before {
     width: 100%; }
     .image.main img {
       width: 100%; }
+    .image.center {
+      display: flex;
+      justify-content: center;
+    }
+    .image.center img {
+      width: 55%;
+    }
 
 a.image {
   overflow: hidden; }
