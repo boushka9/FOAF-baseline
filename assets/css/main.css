@@ -134,7 +134,8 @@ a {
 strong, b {
   color: #07074E;
   font-family: 'GinoraSansBold';
-  font-weight: 600; }
+  font-weight: 600; 
+text-transform: capitalize;}
 
 em, i {
   font-style: italic; }
@@ -142,7 +143,7 @@ em, i {
 p {
   margin: 0 0 2em 0; }
 
-h1, h2, h3, h4, h5, h6, b {
+h1, h2, h3, h4, h5, h6 {
   color: #07074E;
   font-family: "GinoraSansRegular", serif;
   font-weight: 700;
